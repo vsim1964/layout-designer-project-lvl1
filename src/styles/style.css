@@ -71,7 +71,8 @@ h3 {
 .effect:before,
 .optima::before,
 .distortion-of-novelty::before,
-.hyperbolic-depreciation::before {
+.hyperbolic-depreciation::before,
+.errors-in-planning::before {
     content: "";
     width: 1440px;
     height: 914px;
@@ -371,8 +372,45 @@ h3 {
     margin-top: 0;
 }
 
+
+.optima .effect-tag {
+    color: var(--translucent-white);
+}
+
+
 .hyperbolic-depreciation .effect-subtitle {
     margin-bottom: 3px;
+}
+
+.errors-in-planning {
+    height: 919px;
+}
+
+.errors-in-planning::before {
+    height: 919px;
+}
+
+.errors-in-planning .effect-subtitle {
+    margin-bottom: 3px;
+}
+
+.errors-in-planning {
+    position: relative;
+    background-color: var(--light);
+    z-index: -2;
+}
+
+.errors-in-planning h2 {
+    margin-top: 0px;
+}
+
+.errors-in-planning .col {
+    margin-top: 19px;
+    line-height: 1.60;
+}
+
+.col p {
+    margin: 0;
 }
 
 /* .hello {
@@ -380,6 +418,3 @@ h3 {
 
     color: #fff;
 } */
-
-
-hyperbolic-depreciation
