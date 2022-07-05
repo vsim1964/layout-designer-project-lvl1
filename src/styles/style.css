@@ -227,6 +227,9 @@ h3 {
     color: var(--dark);
 }
 
+.effect {
+    background-color: var(--light);
+}
 
 .effect,
 .optima,
