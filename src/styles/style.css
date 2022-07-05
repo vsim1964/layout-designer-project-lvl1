@@ -68,7 +68,8 @@ h3 {
 
 
 .header::before,
-.effect:before {
+.effect:before,
+.optima::before {
     content: "";
     width: 1440px;
     height: 914px;
@@ -209,15 +210,19 @@ h3 {
     text-align: left;
 }
 
-.effect {
+.effect,
+.optima {
     position: relative;
 }
 
-.effect::before {
+.effect::before,
+.optima::before {
     height: 905px;
 }
 
-.effect h2 {
+
+.effect h2,
+.optima h2 {
     margin: 0;
 }
 
@@ -251,7 +256,7 @@ h3 {
     color: var(--translucent-dark);
 }
 
-.effect-tittle {
+.effect-title {
     color: var(--dark);
 }
 
@@ -279,6 +284,37 @@ h3 {
 
 .effect .col {
     margin-top: 7px;
+}
+
+.optima {
+    position: relative;
+    background-color: var(--brown);
+    z-index: -2;
+}
+
+.optima::before {
+    height: 855px;
+}
+
+.optima .effect-tag {
+    color: var(--translucent-white);
+}
+
+.optima .effect-title,
+.optima .effect-lead,
+.optima .col {
+    color: var(--white);
+}
+
+.optima .effect-lead {
+    margin-top: 29px;
+    line-height: 1.15;
+}
+
+.optima .effect-subtitle {
+    color: var(--brown);
+    background-color: var(--white);
+    margin-bottom: 1px;
 }
 
 /* .hello {
