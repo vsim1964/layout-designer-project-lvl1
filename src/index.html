@@ -32,8 +32,9 @@
             продуктивности, багам и бесконечному разочарованию.</p>
           <p class="text">Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем
             сломать и цикл, а остатки нейтрализовать.</p>
-          <a href="#five" class="more">Подробнее</a>
+          <a href="#" class="more">Подробнее</a>
         </div>
+
       </div>
     </div>
   </header>
@@ -46,45 +47,50 @@
       <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0"
         allowfullscreen></iframe>
     </section>
-    <section class="navigation">
-      <ul class="navigation-list">
-        <li class="navigation-item">
-          <h3 class="list-title">5 когнитивных искажений <br> <span class="white">о существовании которых стоит
-              помнить</span> </h3>
-        </li>
+    <section class="navigation" id="five">
+      <div class="navigation-list">
 
-        <li class="navigation-item">
+        <h3 class="list-title navigation-item">5 когнитивных искажений <br> <span class="white">о существовании которых
+            стоит помнить</span> </h3>
+
+        <a href="#ikea-effect" class="section-link navigation-item">
           <div class="number">1</div>
           <div class="item-title">Эффект ИКЕА</div>
           <div class="item-text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения
             других.</div>
-        </li>
-        <li class="navigation-item">
+        </a>
+
+
+        <a href="#premature-optimization" class="section-link navigation-item">
           <div class="number">2</div>
           <div class="item-title">Преждевременная оптимизация</div>
           <div class="item-text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</div>
-        </li>
-        <li class="navigation-item">
+        </a>
+
+        <a href="#distortion-of-novelty" class="section-link navigation-item">
           <div class="number">3</div>
           <div class="item-title">Искажение новизны</div>
           <div class="item-text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и
             недооцениваете более старые.</div>
-        </li>
-        <li class="navigation-item">
+        </a>
+
+        <a href="#hyperbolic-depreciation" class="section-link navigation-item">
           <div class="number">4</div>
           <div class="item-title">Гиперболическое обесценивание</div>
-          <div class="item-text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную
+          <div class="item-text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную,
+            недоступную
             сейчас, но доступную в будущем.</div>
-        </li>
-        <li class="navigation-item">
+        </a>
+
+        <a href="#errors-in-planning" class="section-link navigation-item">
           <div class="number">5</div>
           <div class="item-title">Ошибка планирования</div>
           <div class="item-text">Неправильно рассчитывать время необходимое для завершения задачи.</div>
-        </li>
-      </ul>
+        </a>
+      </div>
     </section>
 
-    <section class="effect">
+    <section class="effect" id="ikea-effect">
       <div class="container">
         <div class="effect-flex">
           <div class="img-box">
@@ -114,7 +120,7 @@
     </section>
 
 
-    <section class="optima">
+    <section class="optima" id="premature-optimization">
       <div class="container">
         <div class="effect-flex">
           <div>
@@ -138,7 +144,7 @@
       </div>
     </section>
 
-    <section class="distortion-of-novelty">
+    <section class="distortion-of-novelty" id="distortion-of-novelty">
       <div class="container">
         <div class="effect-flex">
           <div class="img-box">
@@ -162,7 +168,7 @@
         </div>
       </div>
     </section>
-    <section class="hyperbolic-depreciation">
+    <section class="hyperbolic-depreciation" id=hyperbolic-depreciation"">
       <div class="container">
         <div class="effect-flex">
           <div>
@@ -189,7 +195,7 @@
       </div>
     </section>
 
-    <section class="errors-in-planning">
+    <section class="errors-in-planning" id="errors-in-planning">
       <div class="container">
         <div class="effect-flex">
           <div class="img-box">
@@ -220,7 +226,36 @@
     </section>
 
   </main>
-  <footer></footer>
+  <footer>
+    <div class="container">
+      <div class="footer-flex">
+        <div class="subscribe">
+          <div class="subscribe-offer col">
+            Хотите узнать больше? <br> Подпишитесь на обновления
+          </div>
+          <form action="" class="form-flex col">
+            <label for="email">Электронная почта</label>
+            <div class="input-flex">
+              <input class="input" type="email" name="email" id="email" placeholder="Ваша электронная почта">
+              <button class="button-input">
+                <img src="img/send.svg" alt="">
+              </button>
+            </div>
+            <p class="form-text">Подписываясь, вы принимаете <a href="#">правила сервиса</a></p>
+          </form>
+        </div>
+        <div class="links">
+          <p class="footer-text">© 2020 Константин Константинопольский</p>
+          <p class="footer-text">По материалам статьи <a
+              href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" class="foter-link">Yash
+              Ranadive Cognitive Biases in
+              Programming</a></p>
+          <p class="footer-text"><a href="https://ru.hexlet.io/" class="foter-link">Курсы программирования Hexlet</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
