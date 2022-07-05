@@ -70,7 +70,8 @@ h3 {
 .header::before,
 .effect:before,
 .optima::before,
-.distortion-of-novelty::before {
+.distortion-of-novelty::before,
+.hyperbolic-depreciation::before {
     content: "";
     width: 1440px;
     height: 914px;
@@ -335,8 +336,50 @@ h3 {
     z-index: -2;
 }
 
+.hyperbolic-depreciation {
+    position: relative;
+    background-color: var(--brown);
+    z-index: -2;
+}
+
+.hyperbolic-depreciation::before {
+    height: 937px;
+}
+
+.hyperbolic-depreciation .effect-tag {
+    color: var(--translucent-white);
+}
+
+.hyperbolic-depreciation .effect-title,
+.hyperbolic-depreciation .effect-lead,
+.hyperbolic-depreciation .col {
+    color: var(--white);
+}
+
+.hyperbolic-depreciation .effect-lead {
+    margin-top: 29px;
+    line-height: 1.2;
+}
+
+.hyperbolic-depreciation .effect-subtitle {
+    color: var(--brown);
+    background-color: var(--white);
+    margin-bottom: 1px;
+}
+
+.hyperbolic-depreciation h2 {
+    margin-top: 0;
+}
+
+.hyperbolic-depreciation .effect-subtitle {
+    margin-bottom: 3px;
+}
+
 /* .hello {
     display: block;
 
     color: #fff;
 } */
+
+
+hyperbolic-depreciation
