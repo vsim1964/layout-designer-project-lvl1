@@ -69,7 +69,8 @@ h3 {
 
 .header::before,
 .effect:before,
-.optima::before {
+.optima::before,
+.distortion-of-novelty::before {
     content: "";
     width: 1440px;
     height: 914px;
@@ -102,7 +103,7 @@ h3 {
     cursor: pointer;
 }
 
-.mre:hover {
+.more:hover {
     color: var(--hover)
 }
 
@@ -119,7 +120,7 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     align-content: flex-start;
-    gap: 30px;
+    gap: 29px;
 }
 
 .col {
@@ -211,18 +212,21 @@ h3 {
 }
 
 .effect,
-.optima {
+.optima,
+.distortion-of-novelty {
     position: relative;
 }
 
 .effect::before,
-.optima::before {
+.optima::before,
+.distortion-of-novelty::before {
     height: 905px;
 }
 
 
 .effect h2,
-.optima h2 {
+.optima h2,
+.distortion-of-novelty h2 {
     margin: 0;
 }
 
@@ -267,7 +271,7 @@ h3 {
     font-weight: 400;
     font-size: 34px;
     color: var(--dark);
-
+    line-height: 1.15;
 }
 
 .effect-subtitle {
@@ -315,6 +319,20 @@ h3 {
     color: var(--brown);
     background-color: var(--white);
     margin-bottom: 1px;
+}
+
+.distortion-of-novelty::before {
+    height: 880px;
+}
+
+.distortion-of-novelty .effect-subtitle {
+    margin-bottom: 3px;
+}
+
+.distortion-of-novelty {
+    position: relative;
+    background-color: var(--light);
+    z-index: -2;
 }
 
 /* .hello {
