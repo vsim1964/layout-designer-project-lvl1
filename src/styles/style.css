@@ -144,7 +144,7 @@ h3 {
 }
 
 .vid {
-  filter: drop-shadow(0 16px 32px var(--black) 15%);
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .navigation-list {
@@ -272,7 +272,7 @@ h3 {
 
 .img-box {
   background: url("1.png");
-  filter: drop-shadow(0 16px 32px var(--black) 15%);
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .effect-img {
