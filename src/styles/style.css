@@ -138,6 +138,11 @@ h3 {
     margin: 30px 0 30px;
 }
 
+
+.vid {
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
 .navigation-list {
     width: 1110px;
     margin: 0 auto;
