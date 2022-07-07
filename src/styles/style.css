@@ -126,12 +126,16 @@ h3 {
     flex: 1 0;
 }
 
-.video {
+.video-section {
     text-align: center;
 }
 
-.video .container {
+.video-section .container {
     padding: 0px;
+}
+
+.video {
+    margin: 0 auto;
 }
 
 .text-video-margin {
