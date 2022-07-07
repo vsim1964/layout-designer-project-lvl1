@@ -19,8 +19,9 @@ body {
 
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.55em;
+  font-weight: 400;
   color: var(--dark);
+  line-height: 1.55em;
 }
 
 h1,
@@ -36,10 +37,10 @@ h4 {
 }
 
 h1 {
+  margin-bottom: 199px;
+
   font-size: 72px;
   color: var(--primary);
-
-  margin-bottom: 199px;
 }
 
 h2 {
@@ -143,7 +144,7 @@ h3 {
 }
 
 .vid {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px var(--black) 15%);
 }
 
 .navigation-list {
@@ -197,16 +198,6 @@ h3 {
   padding: 22px 23px 23px 28px;
 }
 
-.section-link:hover {
-  background-color: var(--hover);
-}
-
-.section-link:hover .number,
-.section-link:hover .item-title,
-.section-link:hover .item-text {
-  color: var(--white);
-}
-
 .section-link .number {
   font-family: Neucha, cursive;
   font-style: normal;
@@ -232,6 +223,16 @@ h3 {
   padding-bottom: 3px;
   text-align: left;
   color: var(--dark);
+}
+
+.section-link:hover {
+  background-color: var(--hover);
+}
+
+.section-link:hover .number,
+.section-link:hover .item-title,
+.section-link:hover .item-text {
+  color: var(--white);
 }
 
 .effect {
@@ -271,7 +272,7 @@ h3 {
 
 .img-box {
   background: url("1.png");
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px var(--black) 15%);
 }
 
 .effect-img {
@@ -295,6 +296,7 @@ h3 {
 
 .effect-lead {
   margin-top: 30px;
+
   font-family: Neucha, cursive;
   font-style: normal;
   font-weight: 400;
@@ -412,7 +414,10 @@ h3 {
 }
 
 .errors-in-planning {
+  position: relative;
   height: 919px;
+  background-color: var(--light);
+  z-index: -2;
 }
 
 .errors-in-planning::before {
@@ -423,19 +428,13 @@ h3 {
   margin-bottom: 3px;
 }
 
-.errors-in-planning {
-  position: relative;
-  background-color: var(--light);
-  z-index: -2;
-}
-
 .errors-in-planning h2 {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .errors-in-planning .col {
   margin-top: 19px;
-  line-height: 1.60;
+  line-height: 1.6;
 }
 
 .col p {
@@ -443,7 +442,7 @@ h3 {
   margin-bottom: 15px;
 }
 
-footer .container {
+.footer .container {
   padding: 0;
   padding-top: 100px;
 }
@@ -477,7 +476,6 @@ footer .container {
 .form-flex {
   display: flex;
   flex-direction: column;
-
 }
 
 label {
@@ -548,7 +546,7 @@ label {
 }
 
 .footer-text:nth-child(2) {
-  margin: 0px 13px 20px 0px;
+  margin: 0 13px 20px 0;
 }
 
 .foter-link {
