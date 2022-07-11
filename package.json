@@ -8,6 +8,7 @@
   },
   "main": "",
   "devDependencies": {
+    "editorconfig": "^0.15.3",
     "htmlhint": "^1.1.0",
     "stylelint": "^14.2.0",
     "stylelint-config-rational-order": "^0.1.2",
